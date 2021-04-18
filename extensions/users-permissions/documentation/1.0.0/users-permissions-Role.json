@@ -569,6 +569,18 @@
                 "numerocelular": {
                   "type": "integer"
                 },
+                "cv": {
+                  "type": "string"
+                },
+                "fotoperfil": {
+                  "type": "string"
+                },
+                "Nombre": {
+                  "type": "string"
+                },
+                "Apellidos": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },

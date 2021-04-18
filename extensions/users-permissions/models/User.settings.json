@@ -68,6 +68,31 @@
       "type": "biginteger",
       "unique": true,
       "required": true
+    },
+    "cv": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fotoperfil": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellidos": {
+      "type": "string"
     }
   }
 }

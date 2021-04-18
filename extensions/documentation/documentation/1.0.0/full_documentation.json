@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/18/2021 12:26:02 PM"
+    "x-generation-date": "04/18/2021 2:41:57 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5473,6 +5473,18 @@
                 "numerocelular": {
                   "type": "integer"
                 },
+                "cv": {
+                  "type": "string"
+                },
+                "fotoperfil": {
+                  "type": "string"
+                },
+                "Nombre": {
+                  "type": "string"
+                },
+                "Apellidos": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -5593,6 +5605,146 @@
           },
           "numerocelular": {
             "type": "integer"
+          },
+          "cv": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "fotoperfil": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "Nombre": {
+            "type": "string"
+          },
+          "Apellidos": {
+            "type": "string"
           }
         }
       },
@@ -5642,6 +5794,12 @@
           },
           "numerocelular": {
             "type": "integer"
+          },
+          "Nombre": {
+            "type": "string"
+          },
+          "Apellidos": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
