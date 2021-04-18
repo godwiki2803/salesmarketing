@@ -1,3 +1,3 @@
-# Strapi application
+# Sales Marketing
 
-A quick description of your strapi application
+Pronto Docs de las apis
