@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trabajos",
+  "info": {
+    "name": "trabajos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "text",
+      "required": true
+    },
+    "educacion": {
+      "type": "string"
+    },
+    "requerimientos": {
+      "type": "text",
+      "required": false
+    },
+    "salario": {
+      "type": "biginteger",
+      "required": true
+    },
+    "experiencia": {
+      "type": "string"
+    },
+    "fechacontratacion": {
+      "type": "date"
+    },
+    "categoria": {
+      "model": "categoria"
+    },
+    "ubica": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departamentos",
+  "info": {
+    "name": "departamento"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "ciudads": {
+      "via": "departamento",
+      "collection": "ciudad"
+    }
+  }
+}

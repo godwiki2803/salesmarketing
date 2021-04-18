@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ciudads",
+  "info": {
+    "name": "ciudad",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "departamento": {
+      "model": "departamento",
+      "via": "ciudads"
+    }
+  }
+}

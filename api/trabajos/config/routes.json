@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/trabajos",
+      "handler": "trabajos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trabajos/count",
+      "handler": "trabajos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trabajos/:id",
+      "handler": "trabajos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trabajos/filter/:id",
+      "handler": "trabajos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/trabajos",
+      "handler": "trabajos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/trabajos/:id",
+      "handler": "trabajos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/trabajos/:id",
+      "handler": "trabajos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
